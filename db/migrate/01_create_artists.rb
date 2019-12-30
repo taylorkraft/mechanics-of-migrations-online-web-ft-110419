@@ -1,4 +1,4 @@
-class CreateArtists < ActiveRecord::Migration
+class CreateArtists < ActiveRecord::Migration[5.2]
 
 
   def self.create_table
